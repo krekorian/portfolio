@@ -1,0 +1,174 @@
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: blues;
+    border-bottom: 3px #cccccc solid;
+    color: black;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.header_container {
+    width: 100%;
+    background-color: lightblue;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+#header_title {
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    margin-bottom: 0px!important;
+    padding: 20px 20px 20px 20px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header_lb {
+    border-left: solid #cccccc 1px;
+    /*olor:black;*/
+    padding: -10px 10px -10px 10px!important;
+    color: rgba(0, 0, 0, .5);
+}
+
+.row_seperator {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.main_content {
+    width: 100%;
+    height: 760px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #dddddd;
+}
+
+.navbar-nav, .navbar-brand, .navbar-options {
+    color: black!important;
+}
+
+.project-paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+.content_frame {
+    max-width: 960px;
+    height: 100%;
+    max-height: 600px;
+    top: 40px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.portfolio_content_frame {
+    width: 960px;
+    height: 700px;
+    top: 40px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+form {
+    padding-left: 40px;
+}
+
+.inside_header {
+    color: #4aaaa5;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 3px #cccccc solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.content_writing {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 1.55;
+}
+
+textarea {
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-left: 140px;
+    padding-top: 20px;
+    height: 200px;
+    width: 740px;
+}
+
+#footer {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    padding-top: 40px;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 5px #4aaaa5 solid;
+    text-align: center;
+}
+
+.row {
+    max-width: 920px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+/* override bs nav links */
+
+.nav-link {
+    padding: 0;
+}
